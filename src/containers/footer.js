@@ -22,19 +22,18 @@ class Footer extends React.Component {
 								<Header as="p" className="color_white" content="Subscribe to our newsletter and stay up to date with the latest news and deals!" />
 							</Grid.Column>
 							<Grid.Column className="">
-								<Header content="Recent Testimonials" as="h2" className="color_white pad footer_border" />
-								<Image src={require('../utils/images/tiny1.jpg')} size='tiny' verticalAlign='middle' style={{marginTop: "5px"}}/>
-								<span className="img_text">I highly recommend Skydive Capitol City! Jacob, Cartersville, GA</span>
-								<Image src={require('../utils/images/tiny2.jpg')} size='tiny' verticalAlign='middle' style={{marginTop: "5px"}}/>
-								<span className="img_text">Awesome experience! ...very safe, and super nice! Juanita V., Savannah, GA</span>
-								<Image src={require('../utils/images/tiny3.jpg')} size='tiny' verticalAlign='middle' style={{marginTop: "5px"}}/>
-								<span className="img_text">I had the BEST experience at Skydive Capitol City!!!</span>
-							</Grid.Column>
 
+								<Header content="Recent Testimonials" as="h2" className="color_white pad footer_border" />
+									<Image src={require('../utils/images/tiny1.jpg')} size='tiny' verticalAlign='middle' style={{ marginTop: "5px" }} />
+									<span className="img_text">I highly recommend Skydive Capitol City! Jacob, Cartersville, GA</span>
+								<Image src={require('../utils/images/tiny2.jpg')} size='tiny' verticalAlign='middle' style={{ marginTop: "5px" }} />
+								<span className="img_text">Awesome experience! very safe, and super nice! Juanita V</span>
+									<Image src={require('../utils/images/tiny3.jpg')} size='tiny' verticalAlign='middle' style={{ marginTop: "5px" }} />
+									<span className="img_text">I had the BEST experience at Skydive Capitol City!!!</span>
+							</Grid.Column>
 							<Grid.Column className="">
 								<Header content="Contact Us" as="h2" className="color_white pad footer_border" />
-								<Header as="p" className="color_white">
-
+								<Header as="p" className="color_white" content="232 Virgin Street LA">
 								</Header>
 								<Header content="Monthly Newsletter" as="h2" className="color_white pad footer_border" />
 								<Header as="p" className="color_white" content="Subscribe to our newsletter and stay up to date with the latest news and deals!" />
