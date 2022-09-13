@@ -1,11 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import { ALLROUTES } from './metaRoutes';
 
-const history = require("history").createBrowserHistory;
-
 const ProjectRouter = () => (
-    <Switch>
+    <Routes>
       {ALLROUTES.map((route, i) => (
         <Route
           path={route.path}
@@ -14,7 +12,7 @@ const ProjectRouter = () => (
           key={i}
         />
       ))}
-    </Switch>
+    </Routes>
 )
 
 export default ProjectRouter;
