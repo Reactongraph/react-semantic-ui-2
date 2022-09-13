@@ -4,7 +4,7 @@ import PositiveExperiences from './positiveExperieces';
 import * as CommonHelper from "../common/experinces";
 import FixedBanner from './fixedBanner';
 import QuotesComponent from './quotes'
-import Carousel from "../components/caraousel";
+import Carousel from "./caraousel";
 
 const Home = () => (
   <Container fluid>

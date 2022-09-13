@@ -1,14 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Image, Grid, Container, Header } from 'semantic-ui-react'
-import { withRouter } from 'react-router-dom';
 
-class Footer extends React.Component {
-	state = {}
-	handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
-	render() {
-		const { activeItem } = this.state
+const Footer = ()=> {
 
 		return (
 			<Container fluid className="footer_backgrnd">
@@ -48,6 +42,5 @@ class Footer extends React.Component {
 			</Container>
 		)
 	}
-}
 
-export default withRouter(Footer)
+export default Footer
